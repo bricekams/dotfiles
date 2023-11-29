@@ -13,6 +13,13 @@ return require('packer').startup(function(use)
   use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use( 'mbbill/undotree' )
   use ( 'tpope/vim-fugitive' )
+  use ( '' )
+  use {
+    'akinsho/flutter-tools.nvim',
+    requires = {
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+  }
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',

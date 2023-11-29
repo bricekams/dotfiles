@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/bricekams/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "/home/bricekams/.local/share/nvim/site/pack/packer/start/dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "/home/bricekams/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/bricekams/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
