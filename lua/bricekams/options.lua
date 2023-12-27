@@ -7,6 +7,4 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
-
 vim.opt.termguicolors = true
